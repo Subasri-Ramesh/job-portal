@@ -1,0 +1,61 @@
+.status {
+    font-weight:normal;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display:contents;
+    margin-left: 10px;
+  }
+  
+  .status.selected {
+    color: black;
+  }
+  
+  .status.rejected {
+    color: black;
+  }
+  
+  .status.applied {
+    color: black;
+  }
+    
+  .button-area {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    padding-right: 100px;
+    
+  }
+  
+  .selected-btn {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  .selected-btn:hover {
+    background-color: darkgreen;
+  }
+  
+  .rejected-btn {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  .rejected-btn:hover {
+    background-color: darkred;
+  }
+  
+  .resume {
+    margin-top: 10px;
+    padding-left: 150px;
+    padding-top:40px;
+  }
